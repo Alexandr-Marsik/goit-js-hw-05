@@ -1,8 +1,5 @@
-/**Напиши стрілочну функцію getUserNames(users),
- * яка прийматиме один параметр users — масив об’єктів користувачів.
- * Функція має повертати масив імен усіх користувачів
- * (властивість name) із масиву users.
- */
+//**Напиши стрелочную функцию getUserNames(users), которая будет принимать один параметр users - массив объектов пользователей. Функция должна возвращать массив имен всех пользователей (свойство name) из массива users. Возьми код ниже и вставь после объявления своей функции для проверки корректности ее работы. В консоль будут выведены результаты ее вызовов.
+
 const getUserNames = users => users.map(user => user.name);
 console.log(
   getUserNames([
@@ -42,4 +39,5 @@ console.log(
       balance: 2764,
     },
   ])
-); // ["Moore Hensley", "Sharlene Bush", "Ross Vazquez", "Elma Head", "Carey Barr", "Blackburn Dotson", "Sheree Anthony"]
+);
+// ["Moore Hensley", "Sharlene Bush", "Ross Vazquez", "Elma Head", "Carey Barr", "Blackburn Dotson", "Sheree Anthony"]
